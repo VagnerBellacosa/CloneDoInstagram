@@ -1,2 +1,3 @@
-# CloneDoInstagram
-Clone Do Instagram : Exercicio e aula HTML CSS FlexBox
+# Curso_TypeScript
+
+Apontamentos sobre TypeScript, exemplos praticos e tutoriais
