@@ -1,0 +1,15 @@
+<div class="jumbotron">
+    <ul class="list-group">
+        <li ng-show="Funcionario.listaFuncionarios" class="list-group-item"
+         ng-repeat="devFunc in Funcionario.listaFuncionarios">
+            {{ devFunc.NomeCompleto}}
+            {{ devFunc.Email}}
+            {{ devFunc.Telefone}}
+            {{ devFunc.Setor}}
+            {{ devFunc.Funcao}}
+            {{ devFunc.Salario}}
+        </li>
+    </ul>
+    <button class="btn btn-block" ng-click="Funcionario.getFuncionariosDestaque()"
+ >Mostra todos os funcionários</button>
+</div>

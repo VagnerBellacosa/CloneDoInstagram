@@ -1,0 +1,6 @@
+/// Criando o app.module
+/// <reference path="../scripts/typings/angularjs/angular.d.ts" />
+((): void => {
+   var app = angular.module("AngularTypeScriptDevmedia", [''ngRoute'']);
+   app.config(AngularTypeScriptDevmedia.Routes.configureRoutes);
+})()
